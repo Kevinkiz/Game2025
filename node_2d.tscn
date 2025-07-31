@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3538qgkxyjg8"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_p13lh"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_p13lh")
+
+[node name="ClickButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 199.0
+offset_top = 98.0
+offset_right = 207.0
+offset_bottom = 106.0
+
+[node name="ScoreLabel" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 417.0
+offset_top = 83.0
+offset_right = 457.0
+offset_bottom = 106.0
